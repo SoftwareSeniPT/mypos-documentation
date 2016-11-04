@@ -1,0 +1,92 @@
+/*
+ * Globals
+ */
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    height: 100%;
+}
+
+:global(#main) {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: #eaf4f3;
+    color: #525252;
+    margin: 0;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+::-moz-selection {
+    color: #ebebe3;
+    background: #222;
+}
+
+::selection {
+    color: #ebebe3;
+    background: #222;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+i {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+
+/*
+ * Links
+ */
+
+a {
+    color: #506A85;
+    text-decoration: none;
+    outline: none;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+a:hover {
+    color: #506A85;
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+.content ol li {
+    margin-bottom: 1em;
+}
+
+
+/* Local */
+
+.app {}

@@ -1,0 +1,139 @@
+.content {
+    color: rgb(66, 88, 100);
+}
+.content ul {
+    padding-left: 20px;
+}
+.title {
+    font-size: 45px;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #0d618e;
+}
+.title a {
+    color: #0d618e;
+}
+.item, .title {
+    padding: 0 40px;
+    max-width: 900px;
+    margin: 20px 0;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+.searchItem {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 10px;
+}
+.searchItem .title {
+    font-size: 30px;
+}
+.hero {
+    background-size: 110%;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 130px;
+    background-position: top;
+}
+.titleIcon {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.24);
+    padding: 12px;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: 13px;
+}
+.content .titleIcon img {
+    margin: 0;
+    max-width: 100%;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 1;
+    max-width: 650px;
+    padding: 40px;
+}
+.searchNotFound {
+    padding: 30px;
+    text-align: center;
+}
+.content pre {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 6px 10px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    color: #333;
+    background: #f8f8f8;
+    border-radius: 3px;
+    font-size: 13px;
+    white-space: pre-wrap;
+}
+.content img {
+    margin: 15px 0;
+    max-width: 70%;
+}
+.content table {
+    background: #fff;
+    border-spacing: 0;
+    border: 1px solid #D0DEDD;
+}
+.content table tr:nth-of-type(odd) {
+    background: #F5FBFA;
+    border-bottom: 1px solid #D0DEDD;
+}
+.content table td {
+    padding: 10px 15px;
+    line-height: 1;
+    border-right: 1px solid #D0DEDD;
+}
+.content table tr td:last-child {
+    border: 0;
+    line-height: 1.2;
+}
+.frontPage .hero {
+    min-height: 400px;
+    background-size: cover;
+    background-position: bottom;
+}
+.frontPage .hero h1 {
+    font-size: 80px;
+}
+.lastUpdate {
+  padding: 0 40px;
+  font-style: italic;
+  color: #6c90a3;
+}
+.bold {
+  font-weight: bold;
+}
+:global(.list-with-checkbox) {
+    list-style: none;
+    list-style-position: inside;
+    text-indent: -1.3em;
+    padding-left: 1.2em;
+}
+@media (max-width: 480px) {
+    .content img {
+        max-width: 100%;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .hero {
+        min-height: 230px;
+    }
+    .hero h1 {
+        font-size: 50px !important;
+    }
+}
